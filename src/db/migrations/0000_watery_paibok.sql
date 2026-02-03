@@ -8,4 +8,3 @@ CREATE TABLE "users" (
 	CONSTRAINT "users_email_unique" UNIQUE("email")
 );
 
-export type UserInsert = typeof users.$inferInsert;
