@@ -7,3 +7,5 @@ export const users = pgTable("users", {
     age: integer("age").notNull(),
     createdAt: timestamp("created_at").defaultNow(),
 });
+
+export type UserInsert = typeof users.$inferInsert;
