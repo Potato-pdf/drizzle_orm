@@ -16,5 +16,8 @@
   "private": true,
   "peerDependencies": {
     "typescript": "^5"
+  },
+  "scripts": {
+    "dev": "bun --env-file=.env run src/index.ts"
   }
 }
